@@ -24,76 +24,81 @@
     <title> Html Lesson </title>
 </head>
 <body>
-    <h1> Rawan Mohammad Ibrahim </h1>
-
-    <h2> Test This Tag h2  </h2>
-
-    <h3> Test This Tag h3  </h3>
-    
-    <h4> Test This Tag h4  </h4>
-    
-    <h5> Test This Tag h5  </h5>
-    
-    <h6> Test This Tag h6 </h6>
-
-    <p> My Age Is 24 </p>
-    
-    <table>
+<center>
+    <table border="2">
+        <thead>Nanvigation Menu</thead>
         <tr>
-         <th> Name </th>
-         <th> Country </th>
-        </tr>
-        <tr>
-         <td> Fatima </td>
-         <td> Syria </td>
-        </tr>
-        <tr>
-         <td> Carla </td>
-         <td> Lebanon </td>
-        </tr>
-        <tr>
-         <td> Mohammad </td>
-         <td> Egypt </td>
+            <td><a href="#home">Home</a></td>
+            <td><a href="#about">About</a></td>
+            <td><a href="#recipes">Recipes</a></td>
+            <td><a href="#contact">Get in Touch</a></td>
         </tr>
     </table>
+</center>
 
-    <form action="/action_page.php" method="get">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    <br>
+<h2 id="home">Top 10 Football Teams in th world </h2>
 
-    <button type="button"> Log in </button>
+<dl>
+    <dt> Discover the most popular and successful football clubs globally, known for their achievements, fanbase, and history.</dt>
     <br>
+    <ol type="A" start="32">
+        <li > Real Madrid (spain)</li>
+        <li>Manchester city (England)</li>
+        <li>Enter Milan (Italy)</li>
+        <li>Liverpool(England)</li>
+        <li>Arsenal (England)</li>
+        <li>Paris Saint_German (France)</li>
+        <li>Napoli (Italy)</li>
+        <li>NewCastle United (England)</li>
 
+    </ol>
+</dl>
+<h2 id="about">About This Site </h2>
+<p>This Website provides information about top football clubs,</p>
+<br>
+<h2 id="recipes">Shawarma Ingredients</h2>
+<dl>
+    <dt>Learn how to make authentic Shawarma with the freshest ingredients:</dt>
     <br>
-    <details>
-        <summary> Epcot Center </summary>
-        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-    </details>
-    <br>
+    <ul style="list-style-type: circle;">
+        <li > Meat or Chicken</li>
+        <li>Garlic</li>
+        <li>Shawarma Spices</li>
+        <li>Salt</li>
+        <li>Black Pepper</li>
+        <li>Olive Oil</li>
+        <li>Vinegar</li>
+        <li>Yogurt</li>
+        <li>Onion</li>
+        <li>Tomato</li>
+        <li>Pickled Cucumber</li>
+        <li>Tahini Sauce</li>
+        <li>
+            <ul style="list-style-type: square;">
+                <dt>Arabic Bread </dt>
+                <dd>Syahi</dd>
+                <dd>Samon</dd>
+                <dd>Saj</dd>
+            </ul>
+    </li>
 
-    <search>
-        <form>
-          <input name="fsrch" id="fsrch" placeholder="Search Here">
-        </form>
-    </search>
-    <br>
+    </ul>
+</dl>
+<br>
+<h2 id="contact">Contact Us</h2>
+<p>Email: example@example.com</p>
+<p>Phone: +123456789</p>
+<br>
+<h2>Web Development Basics</h2>
+<dl>
+    <dt>Html</dt>
+    <dd>HyperText Markup Language - Structure and content of web pages.</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets - Styling and layout of web pages.</dd>
+    <dt>JavaScript</dt>
+    <dd>Adds interactivity and dynamic behavior to web pages.</dd>
+</dl>
 
-    <address>
-        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
-        Visit us at:<br>
-        Example.com<br>
-        Box 564, Disneyland<br>
-        USA
-    </address>
-    <br>
-
-    <p>This is normal text - <b>and this is bold text</b>.</p>
-    <br>
 
 </body>
 </html>
