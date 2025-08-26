@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <center><h2>Register</h2></center>
+    <main>
+      <center>
+        <form autocomplete="off">
+          <div>
+            <label for="name">Full name</label>
+            <input
+              type="text"
+              name="name"
+              required
+              id="name"
+              pattern="\d*"
+              placeholder="rawan_ibrahim"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="date">Date Of Birth</label>
+            <input
+              type="date"
+              name="date"
+              id="date"
+              required
+              placeholder="Date Of Birth"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label>Gender :</label>
+            <label for="uu">male</label>
+            <input type="radio" checked name="gender" id="uu" value="ذكر" />
+            <label for="ui">female</label>
+            <input type="radio" name="gender" id="ui" value="أنثى" />
+          </div>
+          <br />
+
+          <div>
+            <label for="emails">Email</label>
+            <input
+              type="emails"
+              name=""
+              id="emails"
+              required
+              multiple
+              placeholder="rawan@gmail.com , ygadfd@gmail.com"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="Pass">Password</label>
+            <input
+              type="password"
+              name=""
+              id="Pass"
+              required
+              placeholder="****************"
+              maxlength="12"
+              minlength="8"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="Pass">Confirm Password</label>
+            <input
+              type="password"
+              name=""
+              id="Pass"
+              required
+              placeholder="****************"
+              maxlength="12"
+              minlength="8"
+            />
+          </div>
+
+          <br />
+          <label>Accept Recieve News By Email: </label>
+          <label for="d">Yes</label>
+          <input type="checkbox" name="vb" id="d" value="" />
+          <label for="d">No</label>
+          <input type="checkbox" name="vb" id="d" value="" />
+          <br />
+
+          <textarea id="lead" name="team" rows="4" cols="50" pattern="\d*">
+rawan mohammad ibrahim</textarea
+          >
+          <br />
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </center>
+    </main>
+  </body>
+</html>
